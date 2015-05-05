@@ -8,7 +8,7 @@ function get_standard_lbl
 return s_std.ndt_identifier
 is
 begin
-    return 'Время запуска: '||std.format_date(sysdate);
+    return 'Время запуска: '||std.format_date(sysdate);  -- skfdjfv
 end get_standard_lbl;
 
 /*
